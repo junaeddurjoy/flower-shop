@@ -12,11 +12,11 @@ body{
 }
 /* first introduction par */
 .introduction{
-    background-color: grey;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+    background-color: #E554730D;
     display: flex;
+    border: 0px;
+    width: 100%;
+    overflow: hidden;
 }
 .intro{
     padding-left: 140px;
@@ -70,11 +70,16 @@ body{
     padding-top: 50px;
 }
 /* third part */
+.insta{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 .insta-title{
     color: #272727;
     text-align: center;
     font-size: 20px;
     font-weight: 800;
+
 }
 .insta-details{
     color: #27272799;
@@ -126,8 +131,9 @@ body{
 .foot{
     background-color: black;
     color: azure;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 55px;
+    padding-bottom: 70px;
+    width: 100%;
 }
 .foot-title{
     color: #E55473;
@@ -148,6 +154,7 @@ body{
 }
 /* bonus */
 .bonus{
+    padding-top: 50px;
     text-align: center;
 }
 .bonus-title{
@@ -157,18 +164,39 @@ body{
 .bonus-details{
     color: #27272799;
     line-height: 30px;
+    padding-bottom: 30px;
 }
 .bonus-img{
     list-style: none;
     display: flex;
     gap: 20px;
+    padding-left: 280px;
+    padding-bottom: 100px;
 }
 .bonus-image1{
-    background-color: aquamarine;
+    background-color: rgb(223, 140, 197);
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    height: 400px;
+    width: 300px;
 }
 .bonus-image2{
-    background-color: aquamarine;
+    background-color: rgb(241, 192, 182);
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    height: 400px;
+    width: 300px;
 }
 .bonus-image3{
-    background-color: aquamarine;
+    background-color: rgb(251, 255, 127);
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    height: 400px;
+    width: 300px;
+}
+span{
+    color: white;
+}
+#pink{
+    color: #E55473;
 }
