@@ -19,7 +19,7 @@ body{
 }
 /* first introduction par */
 .introduction{
-    background-color: #e029510d;
+    background-color: pink;
     display: flex;
     border: 0px;
     width: 100%;
@@ -27,8 +27,8 @@ body{
 }
 .intro{
     padding-left: 140px;
-    padding-top: 60px;
-    padding-bottom: 70px;
+    padding-top: 100px;
+    padding-bottom: 120px;
 }
 .intro-msg{
     font-size: 60px;
@@ -50,14 +50,14 @@ body{
     flex-shrink: 0;
     padding-bottom: 0px;
     padding-left: 120px;
-    padding-top: 20px;
+    padding-top: 100px;
 }
 /* second part */
 .hd-intro{
     text-align: center;
     align-content: center;
     padding-top: 90px;
-    padding-left: 250px;
+    padding-left: 280px;
 }
 .hd-intro-msg{
     font-size: 30px;
@@ -70,11 +70,11 @@ body{
     max-width: 500px;
 }
 .image2{
-    width: 200px;
-    height: 300px;
+    width: 250px;
+    height: 350px;
     flex-shrink: 0;
     padding-bottom: 50px;
-    padding-left: 120px;
+    padding-left: 140px;
     padding-top: 50px;
 }
 /* third part */
@@ -187,38 +187,38 @@ body{
     list-style: none;
     display: flex;
     gap: 20px;
-    padding-left: 200px;
+    padding-left: 180px;
     padding-bottom: 100px;
 }
 .bonus-image1{
     background-color: rgb(223, 140, 197);
-    border-top-left-radius: 200px;
-    border-top-right-radius: 200px;
-    height: 400px;
-    width: 300px;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+    height: 380px;
+    width: 320px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 30px;
+    padding-top: 80px;
 }
 .bonus-image2{
     background-color: rgb(241, 192, 182);
-    border-top-left-radius: 200px;
-    border-top-right-radius: 200px;
-    height: 400px;
-    width: 300px;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+    height: 380px;
+    width: 320px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 30px;
+    padding-top: 80px;
 }
 .bonus-image3{
     background-color: rgb(251, 255, 127);
-    border-top-left-radius: 200px;
-    border-top-right-radius: 200px;
-    height: 400px;
-    width: 300px;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+    height: 380px;
+    width: 320px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 30px;
+    padding-top: 80px;
 }
 span{
     color: white;
