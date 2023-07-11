@@ -1,4 +1,11 @@
 /* common shared */
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 body{
     font-family: 'Lato',sans-serif;
 }
@@ -12,7 +19,7 @@ body{
 }
 /* first introduction par */
 .introduction{
-    background-color: #E554730D;
+    background-color: #e029510d;
     display: flex;
     border: 0px;
     width: 100%;
@@ -60,6 +67,7 @@ body{
     display: flex;
     color: #27272799;
     line-height: 30px;
+    max-width: 500px;
 }
 .image2{
     width: 200px;
@@ -87,6 +95,8 @@ body{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    max-width: 500px;
+    padding-left: 500px;
 }
 .flower-image{
     list-style-type: none;
@@ -127,13 +137,16 @@ body{
     border: none;
     width: 400px;
 }
+.rect-image{
+    padding-top: 180px;
+}
 /* footer */
 .foot{
     background-color: black;
     color: azure;
     padding-top: 55px;
     padding-bottom: 70px;
-    width: 100%;
+
 }
 .foot-title{
     color: #E55473;
@@ -150,7 +163,9 @@ body{
 .foot-detail{
     text-align: center;
     padding-bottom: 10px;
+    padding-left: 475px;
     line-height: 30px;
+    max-width: 550px;
 }
 /* bonus */
 .bonus{
@@ -165,6 +180,8 @@ body{
     color: #27272799;
     line-height: 30px;
     padding-bottom: 30px;
+    padding-left: 500px;
+    padding-right: 500px;
 }
 .bonus-img{
     list-style: none;
